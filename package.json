@@ -1,0 +1,19 @@
+{
+  "name": "freeapi-playwright-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "typecheck": "tsc --noEmit",
+    "test:allure": "node scripts/test-with-allure.mjs",
+    "report": "allure open allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0",
+    "@types/node": "^24.0.0",
+    "ajv": "8.20.0",
+    "allure-commandline": "2.46.1",
+    "allure-playwright": "3.13.0",
+    "typescript": "7.0.2"
+  }
+}
